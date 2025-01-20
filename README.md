@@ -240,17 +240,16 @@ type Student = Person & {
 ### Interface (Optional)
 
 ```typescript
-// interface Person {
-//   name: string;
-//   age: number;
-//   city: string;
-// }
+interface Person {
+  name: string;
+  age: number;
+  city: string;
+}
 
-// interface Student extends Person {
-//   grade: number;
-//   subjects: string[];
-// }
-```
+interface Student extends Person {
+  grade: number;
+  subjects: string[];
+}
 
 ## 🚀 Enums
 
